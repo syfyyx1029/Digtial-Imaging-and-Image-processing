@@ -14,7 +14,7 @@
 
 ## 📁 目录结构
 
-建议的项目目录结构如下：
+项目目录结构如下：
 
 ```text
 task01_emoji_tracker/
@@ -29,4 +29,5 @@ task01_emoji_tracker/
 │   └── result_tracked.mp4     # 生成的带有轨迹和追踪框的视频
 │
 ├── correlation.py             # 核心算法库：包含手工推导的快速 NCC 算法与分层搜索
+├── evaluation.py              # 用于评估结果视频效果            
 └── main.py                    # 主控逻辑：视频 I/O、ROI 裁剪、防丢机制与轨迹绘制
