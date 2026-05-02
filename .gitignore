@@ -1,0 +1,4 @@
+# 忽略特定的文件夹
+__pycache__/
+.vscode/
+.qodo/
